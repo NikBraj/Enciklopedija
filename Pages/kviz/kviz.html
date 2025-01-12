@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kviz o oklopnim vozilima</title>
+    <link rel="icon" type="image/png" href="../../Images/Home/tank_icon.png">
+    <link rel="stylesheet" href="../../Styles/style_kviz/kviz.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="start-screen">
+            <h1>Kviz o oklopnim vozilima</h1>
+            <button id="start-btn">Pokreni kviz</button>
+        </div>
+        <div id="quiz-content" style="display: none;">
+            <h2 id="question">Pitanje će se prikazati ovdje...</h2>
+            <div id="answers"></div>
+            <p id="feedback" style="display: none;"></p>
+            <div id="result" style="display: none;">
+                <h3>Konačni rezultat</h3>
+                <p id="score"></p>
+                <button id="restart-btn">Pokreni ponovno</button>
+                <button id="home-btn">Početna stranica</button>
+            </div>
+        </div>
+    </div>
+    <script src="../../Scripts/kviz/kviz.js"></script>
+</body>
+</html>

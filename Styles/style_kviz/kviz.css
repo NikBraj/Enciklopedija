@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../../Images/Home/home_backround.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: rgb(47, 47, 47);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz-container {
+    background-color: rgba(217, 217, 217, 0.9); 
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.answer-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 25px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-btn:hover {
+    background-color: rgb(0, 84, 153);
+}
+
+.answer-btn.disabled {
+    background-color: lightgrey;
+    cursor: not-allowed;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: rgb(1, 93, 1);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(5, 139, 0);
+}
+
+#home-btn {
+    background-color: rgb(0, 110, 255);
+}
+
+#home-btn:hover {
+    background-color: rgb(0, 84, 153);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}

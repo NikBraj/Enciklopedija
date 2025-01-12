@@ -145,6 +145,16 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
+.header3:hover {
+    color: white;
+    background-color: gray;
+}
+
+.header3-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic; 
